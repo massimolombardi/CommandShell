@@ -1,0 +1,18 @@
+#********************************** CMD Help File  ****************************************
+#*  
+#* In questo file è possibile specificare un messaggio di Help per uno specifico comando.
+#* Il messaggio viene letto cosi come è scritto. considerando tutti i caratteri speciali
+#* e gli spazi utilizzati. Vengono ignorate esclusivamente le linee vuote e le linee che
+#* iniziano con #.
+#* E' possibile colorare parti di testo con il colore impostato nel file di configurazione
+#* racchiudendo la parte da colorare tra i caratteri $testo$ oppure %testo% per utilizzare
+#* rispettivamente SHELL_COMMAND_COLOR e SHELL_COMMAND_ARG_COLOR.
+#* Per ogni comando per cui si desidera specificare un help piu dettagliato (visualizzabile
+#* con [comando] --help, creare un file con il nome del comando stesso, che rispetti questo
+#* formato.
+#*
+#******************************************************************************************
+
+Chiude la shell di comandi
+
+

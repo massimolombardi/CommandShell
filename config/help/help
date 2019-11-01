@@ -1,0 +1,17 @@
+#**********************************  Help File  *******************************************
+#*  
+#* In questo file è possibile specificare un messaggio di Help per la console.
+#* Il messaggio viene letto cosi come è scritto. considerando tutti i caratteri speciali
+#* e gli spazi utilizzati. Vengono ignorate esclusivamente le linee vuote e le linee che
+#* iniziano con #.
+#* E' possibile colorare parti di testo con il colore impostato nel file di configurazione
+#* racchiudendo la parte da colorare tra i caratteri $testo$ oppure %testo% per utilizzare
+#* rispettivamente SHELL_COMMAND_COLOR e SHELL_COMMAND_ARG_COLOR.
+#*
+#******************************************************************************************
+
+Sono disponibili i seguenti comandi:
+	$help$ - Stampa questo messaggio
+	$closeShell$ - Chiuse la Shell
+
+
